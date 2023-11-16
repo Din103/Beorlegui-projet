@@ -1,0 +1,29 @@
+
+@media (max-width: 1000px) {
+
+   
+    #headerlogo {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: left;
+        padding-bottom: 20px;
+    }
+
+    .column-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+        align-items: left;
+        
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }
+    
+
+   
+}

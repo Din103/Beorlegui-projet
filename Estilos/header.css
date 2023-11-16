@@ -1,0 +1,150 @@
+
+header {
+    
+    width: 96%;
+    height: 100px;
+    padding: 0% 2%;
+    background-color:black;    
+}
+
+#logo img {
+    height: 40px;
+    padding-top: 30px;
+    width: 200px;
+    margin-right: 30px;
+    
+}
+#headerlogo {
+  display: grid;
+  grid-template-columns: 0fr 1fr 1fr 0fr 0fr 0fr 0fr;
+}
+
+#explore {
+    font: bold 14px Arial, sans-serif;
+    color: gold;
+    padding-left: 10px;
+}
+
+#navegation li {  
+    display: inline-block;
+    height: 35px;
+    padding: 5px 10px 0px 10px;
+}
+
+#navegation li:hover {
+    background-color: #c66f8b;  
+}
+
+
+#navegation li:active {
+  box-shadow: 5px 5px 30px rgba(206, 9, 9, 0.4);
+
+}
+
+#navegation a {
+    font: bold 20px Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#explore-navegation {
+    margin-top: 30px;
+    float: left;
+
+}
+#sparkcontainer {
+  font: bold 20px Arial, sans-serif;
+  color: grey;
+  display: flex; 
+  justify-content: center; 
+text-align: center;
+ margin-top: 60px;
+ margin-right: 100px;
+ width: 100px;
+}
+  #sparkcontainer:hover {
+       color: red;    
+  }
+
+  #create>  summary {    
+    font: bold 18px Arial, sans-serif;
+    color: white;
+    list-style: none;     
+}
+
+#create> summary::-webkit-details-marker {
+      display: none;
+  }
+  #create> summary::-webkit-details-marker {
+    float: left;
+  }
+  #create>   summary::after {
+    content: '^';
+    color: green;
+    font-size: 3em;
+    display: inline-block;
+    transform: rotate(180deg);
+        margin-left: 5px; 
+        font-size: 1.5em;
+  }
+  .navcontainer {
+    width: 120px; 
+    height: 50px; 
+    background-color: rgb(46, 45, 45); 
+    font: bold 18px Arial, sans-serif;
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 3px;
+    margin-top: 30px;
+
+  }
+  .navcontainer:hover {   
+    background-color:rgb(34, 189, 203)  
+  }
+
+  .navcontainer:active {
+    box-shadow: 10px 1px 1px 10px rgba(35, 21, 88, 0.4);
+  
+  }
+
+  #lupa i {
+    font-size: 2.5em;
+  }
+  #lupa {
+    width: 60px; 
+    height: 50px; 
+    color: rgb(46, 45, 45);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #lupa i:hover{
+   color:rgb(34, 189, 203);
+  }
+
+  #login {
+    width: 100px; 
+    height: 50px; 
+    background-color: rgb(46, 45, 45); 
+    font: bold 18px Arial, sans-serif;
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+#login:hover {
+  background-color:rgb(34, 189, 203)  
+}
+#login:active {
+  box-shadow: 10px 1px 1px 10px rgba(35, 21, 88, 0.4);
+
+}

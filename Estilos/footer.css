@@ -1,0 +1,29 @@
+
+.pagebotton{
+    color:white;
+    font: 18px Arial, sans-serif; 
+    background-color: rgb(32, 30, 30);
+    width:100%;
+    border: 1px solid grey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pagebotton:hover {
+    background-color:rgb(34, 189, 203);
+}
+
+.pagebotton:active {
+    box-shadow: 20px 1px 1px 20px rgba(35, 21, 88, 0.4);
+  
+  }
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#whitetext2 {
+    font: bold 24px Arial, sans-serif;
+
+}

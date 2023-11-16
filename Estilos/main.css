@@ -1,0 +1,89 @@
+main {
+    width: 100%;
+    height: 100vh; 
+    /* Crea un gradiente lineal que va de gris oscuro (#333) a negro (#000) en diagonal */
+    background: linear-gradient(to bottom right, #333, #000);
+}
+.right-column img {    
+    width: 100%;
+   
+}
+.right-column p {
+    color:white;
+    margin: 25px 0px 10px 5px;
+    font: bold 24px Arial, sans-serif; }
+
+.left-column {
+    margin-left: 75px;
+}
+
+#parrafo1 {
+    margin-top: 20px;
+    color: grey;
+    font: 40px Arial, sans-serif;
+      
+}
+#parrafo2 {
+    margin-top: 20px;
+    color: grey;
+    font: 30px Arial, sans-serif;
+  
+}
+
+.column-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;    
+}
+
+.blue-text {
+    color: rgb(34, 189, 203);
+}
+#whitetext {
+    font: 40px bolder Arial, sans-serif;
+    color: white;
+
+}
+
+.signupforfree {
+    float: left;
+    width: fit-content;
+    font: bold 24px Arial, sans-serif;    
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: rgb(25, 210, 25);
+    text-align: center;
+    border-radius: 5px;   
+
+}
+
+.signupforfree:hover {
+    background-color:rgb(34, 189, 203);
+}
+.signupforfree:active {
+    box-shadow: 10px 1px 1px 10px rgba(35, 21, 88, 0.4);
+  
+  }
+
+.learn-more {
+    position: relative;
+    top: 0px;    
+    float: left;
+    width: fit-content;
+    color:white;
+    font: bold 24px Arial, sans-serif;  
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: #000;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.learn-more:hover {
+    background-color:rgb(34, 189, 203);
+}
+.learn-more:active {
+    box-shadow: 10px 1px 1px 10px rgba(35, 21, 88, 0.4);
+  
+  }
